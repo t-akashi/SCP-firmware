@@ -87,6 +87,13 @@ struct scmi_protocol_version_p2a {
 };
 
 /*!
+ * \brief Generic agent-to-platform NEGOTIATE_PROTOCOL_VERSION structure.
+ */
+struct scmi_negotiate_protocol_version_a2p {
+    uint32_t version;
+};
+
+/*!
  * \brief Generic platform-to-agent PROTOCOL_ATTRIBUTES structure.
  */
 struct scmi_protocol_attributes_p2a {
